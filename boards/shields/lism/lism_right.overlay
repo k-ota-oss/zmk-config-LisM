@@ -7,3 +7,6 @@
 &transform_40keymap {
     col-offset = <5>;
 };
+&mkp_input_listener {
+    input-processors = <&zip_temp_layer 1 1500>;
+};
